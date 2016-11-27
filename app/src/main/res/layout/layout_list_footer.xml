@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/prev_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:padding="5dp"
+        android:text="@string/prev_btn_str"
+        android:clickable="true"
+        android:background="@drawable/next_btn_bg_selector"
+        android:onClick="onClick"
+        />
+
+    <TextView
+        android:id="@+id/current_page_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:padding="5dp"
+        android:text="@string/next_btn_str"
+        android:clickable="true"
+        android:background="@drawable/next_btn_bg_selector"
+        android:onClick="onClick"
+        />
+
+
+</LinearLayout>
